@@ -1,0 +1,46 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p, h2 {
+  margin-top: .25em;
+}
+
+/* mobile first with a very basic responsive element :) */
+.app {
+  width: 100%; 
+  margin: 0 auto;
+  max-width: 600px; 
+}
+
+.user-card-item {
+  border:1px solid black;
+  border-radius:5px;
+  margin: 1em 0;
+}
+
+.user-card-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 1em;
+}
+
+.user-card-wrapper .img-wrapper {
+  width:50px;
+}
+
+.img-wrapper img {
+  width:100%;
+}
+
+.user-details-wrapper {
+  margin-left:2em
+}
+
+.loading {
+  text-align:center;
+}
